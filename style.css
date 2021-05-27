@@ -93,3 +93,13 @@ nav img
   background: #FF9135;
   transition: 0.7s;
 }
+
+
+@media(max-width: 800px)
+{
+  .text-box h1{
+    font-size: 60px;
+  }
+} {
+
+}
