@@ -8,14 +8,14 @@
 <link href="https://fonts.googleapis.com/css2?
 family=Poppins:ital,wght@0,300;0,600;0,700;1,100;1,400&display=swap"
  rel="stylesheet">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
-  </head>
+</head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html"><img src="images/logo.png"></a>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
+        <!--  <i class="fa fa-times" onclick="hideMenu()"></i>-->
+        <a   style="font-size:30px;cursor:pointer;color:#ffffff" class="closebtn" onclick="hideMenu()">&times;</a>
           <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
@@ -24,7 +24,10 @@ family=Poppins:ital,wght@0,300;0,600;0,700;1,100;1,400&display=swap"
             <li><a href="#">CONTACT</a></li>
           </ul>
           </div>
-          <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!--  <i class="fa fa-bars" onclick="showMenu()"></i>-->
+          <span style="font-size:30px;cursor:pointer;color:#ffffff" onclick="showMenu()">&#9776;</span>
+
+
       </nav>
 
         <div class="text-box">
@@ -35,7 +38,7 @@ family=Poppins:ital,wght@0,300;0,600;0,700;1,100;1,400&display=swap"
 
         </div>
     </section>
-    <!----  Course ----->
+    <!---Course--->
     <section class="course">
       <h1>Course we offer</h1>
       <p>maths physics social studies hindi</p>
